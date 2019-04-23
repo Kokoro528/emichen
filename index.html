@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta property="og:title" content="" />-->
+    <!--<meta property="og:url" content="" />-->
+    <!--<meta property="og:image" content="" />-->
+    <!--<meta property="og:site_name" content="" />-->
+    <!--<meta property="og:description" content="" />-->
+    <title>Start Project</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css" >
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/customized.css">
+
+
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <section class="cover-main" id="home">
+        <header>
+            <nav class="nav-wrapper">
+                <div class="logo"><a href="#">
+                    <img src="images/nichijou.jpeg" class="logo" >
+                </a></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Slider</a></li>
+                    <li><a href="#">Footer</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <ul id="scene" 
+            data-invert-x="true" 
+            data-invert-y="true" 
+            data-scalar-x="2"
+            data-scalar-y="2"
+            data-friction-x="0.1"
+            data-friction-y="0.1"
+            data-origin-x="0.5"
+            data-origin-y="0.5">
+                <li class="layer name" data-depth="0.90">Emily Chen</li>
+                <li class="layer title" data-depth="0.50">Fullstack Engineer</li>
+                <li class="layer btn btn-main" data-depth="0.30">
+                    <a href="#" class="portfolio-btn">View Portfolio</a>
+                    <a href="#" class="contact-btn">Contact Me</a>
+                </li>
+            </ul>            
+        </div>
+    </section>
+    <!-- section class="masonry-grid" id="work">
+        <h2 class="sub-title">My Portfolio</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+        </div>
+    </section> -->
+
+    <!-- <section class="masonry-grid" id="work">
+        <h2 class="sub-title">My Portfolio</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+            <div class="grid-item"><img src="images/waterlilies/Monet.jpg"></div>
+        </div>
+    </section> -->
+    <section class="beating-heart" id="resume">
+        <h2 class="sub-title">About me</h2>
+        <div class="wrapper">
+            <div class="row">
+            <div class="three header-col">
+                <h1><span>Education</span></h1>
+            </div>
+            <div class="nine main-col">
+                <div class="item">
+                        <div class="org">Rice University</div>
+                        <div class="location"><span>Houston, TX</span></div>
+                </div>
+                    <div class="item">
+                        <div class="title">
+                            <h1>Bachelor of Arts in Computer Science</h1>
+                        </div>
+                        <div class="period">
+                            Aug 2012 - Dec 2017
+                        </div>
+                    </div>
+                <div class="item">Membership of Rice CS club: Women in Computer science
+                </div>
+                <div class="item">Coursework: Tools & Models data science, Advanced OOP (Java), Op Sys/Concurrent Programming, Design/Analysis Algorithms.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three header-col">
+                <h1><span>Work</span></h1>
+            </div>
+            <div class="nine main-col">
+                <div class="item">
+                        <div class="org">Chuwa America</div>
+                        <div class="location"><span>Santa Clara, CA</span></div>
+                </div>
+                    <div class="item">
+                        <div class="title">
+                            <h1>Full stack Engineer</h1>
+                        </div>
+                        <div class="period">
+                            Feb 2018 - Mar 2019
+                        </div>
+                    </div>
+                <div class="item">
+                    Worked in a team of 4 responsible for creating a internal client brand safety info management system.
+                </div>
+                <div class="item">
+                    Designed and Implemented an internal brand safety management subsystem in single page web app and a brand safety analysis batch processing UI with JavaScript using MERN (MongoDB Express React and Node) stack.
+                </div>
+                <div class="item">
+                    Templated the User Interface using Bootstrap/React-bootstrap
+                </div>
+                <div class="item">
+                    Responsible for writing test cases using Jest and Enzyme ensuring web components works as expected.
+                </div>
+            </div>     
+        </div>
+        <div class="row">
+            <div class="three header-col">
+                <h1><span>Selected Project</span></h1>
+            </div>
+            <div class="nine main-col">
+                    <div class="item">
+                        <div class="title">
+                            <h1>Hellenistic Astrology</h1>
+                        </div>
+                        <div class="period">
+                            Feb 2019 - Present
+                        </div>
+                    </div>
+                <div class="item">
+                    Designed the backend algorithm given a geo-loc and a world clock time that returns house cusps and solar planet position information using Node.js and open source astronomical package Swiss Ephemeris.
+                </div>
+                <div class="item">
+                    Created extensive test cases for horoscope chart calculating services using Mocha and Chai
+                </div>
+                <div class="item">
+                    Created reusable svg UI components using D3 (Pie chart, arc) and React library to illustrate with ascendants and house cusps information.
+                </div>
+            </div>     
+        </div>
+                 
+    </section>
+    
+    <section class="beating-heart" id="about">
+        <div class="wrapper">
+
+            <h2 class="sub-title">About me</h2>
+            <b>I Am A:</b> Neutral Good Gnome Monk(3rd Level)
+<br><br><u>Ability Scores:</u><br>
+<b>Strength-</b>13<br>
+<b>Dexterity-</b>10<br>
+<b>Constitution-</b>14<br>
+<b>Intelligence-</b>12<br>
+<b>Wisdom-</b>15<br>
+<b>Charisma-</b>14
+<ul>
+    <li><u>Alignment:</u><b>Neutral Good</b> A neutral good character does the best that a good person can do. He is devoted to helping others. He works with kings and magistrates but does not feel beholden to them. Neutral good is the best alignment you can be because it means doing what is good without bias for or against order. However, neutral good can be a dangerous alignment when it advances mediocrity by limiting the actions of the truly capable.</li>
+    <li><u>Race:</u><b>Gnomes</b> are in wide demand as alchemists, inventors, and technicians, though most prefer to remain among their own kind in simple comfort. Gnomes adore animals, gems, and jokes, especially pranks. They love to learn by personal experience, and are always trying new ways to build things. Gnomes stand 3 to 3.5 feet tall and live about 350 to 500 years.</li>
+    <li><u>Class:</u><b>Monks</b> are versatile warriors skilled at fighting without weapons or armor. Good-aligned monks serve as protectors of the people, while evil monks make ideal spies and assassins. Though they don't cast spells, monks channel a subtle energy, called ki. This energy allows them to perform amazing feats, such as healing themselves, catching arrows in flight, and dodging blows with lightning speed. Their mundane and ki-based abilities grow with experience, granting them more power over themselves and their environment. Monks suffer unique penalties to their abilities if they wear armor, as doing so violates their rigid oath. A monk wearing armor loses their Wisdom and level based armor class bonuses, their movement speed, and their additional unarmed attacks per round.</li>
+</ul>
+<br><br>Find out <a href='http://www.easydamus.com/character.html' target='mt'>What Kind of Dungeons and Dragons Character Would You Be?</a><br><br>            <span>I</span>
+            <svg class="heart"version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<path style="fill:#C03A2B;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
+    c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+    c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z"/>
+<path style="fill:#ED7161;" d="M6,18.078c-0.553,0-1-0.447-1-1c0-5.514,4.486-10,10-10c0.553,0,1,0.447,1,1s-0.447,1-1,1
+    c-4.411,0-8,3.589-8,8C7,17.631,6.553,18.078,6,18.078z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+            <span>PHOTOGRAPHY</span>
+        </div>
+    </section>
+
+<div class="slider-div" id="slider">
+        <h2 class="sub-title">Slider Showcase</h2>
+        <div class="slider">
+            <div class="slide"><img src="images/templates/The_Great_Wave_Off_Kanagawa.jpg" alt="" class="img-responsive"></div>
+            <div class="slide"><img src="images/waterlilies/Monet.jpg" alt="" class="img-responsive"></div>
+            <div class="slide"><img src="images/waterlilies/Monet.jpg" alt="" class="img-responsive"></div>
+            <div class="slide"><img src="images/waterlilies/Monet.jpg" alt="" class="img-responsive"></div>
+            <div class="slide"><img src="images/waterlilies/Monet.jpg" alt="" class="img-responsive"></div>
+        </div>
+    </div>
+
+    <footer>
+        You just reached the Parallax Footer! :)
+        &#x2651;
+    </footer>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/masonry.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+        <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+</body>
+
+</html>

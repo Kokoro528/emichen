@@ -1,0 +1,276 @@
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header {
+	position: relative;
+	background: transparent;
+	width: 100%;
+}
+
+
+
+header.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	transform: translateY(-200%);
+	transition: 0.2s;
+	z-index: 5;
+}
+
+body.scroll header.sticky{
+	transform: translateY(0);
+}
+
+.nav-wrapper {
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+	padding: 7px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items:  center;
+}
+
+nav.nav-wrapper ul li {
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 0;
+}
+
+nav.nav-wrapper ul li a {
+	font-size: 17px;
+	line-height: 22px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	transition: 0.3s;
+}
+
+nav.nav-wrapper ul li a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+header .logo img{
+	max-width: 100px;
+}
+
+/* Parallax PAGE STYLES GOES FROM HERE */
+.cover-main{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/templates/The_Great_Wave_off_Kanagawa.jpg");
+	height: 60vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul#scene li.name{
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: white;
+	width: 100;
+}
+
+ul#scene li.title{
+	text-align: center;
+	font-size: 35px;
+	line-height: 35px;
+	color: white;
+	width: 100%;
+	margin-top: 60px;
+}
+
+ul#scene {
+	margin-top: 100px;
+}
+
+.btn{
+	width: 100%;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.portfolio-btn,
+.contact-btn {
+	margin: 0 auto;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 10px 20px;
+	background: transparent;
+	text-decoration: none;
+	color: white;
+}
+
+.portfolio-btn:hover,
+.contact-btn:hover{
+	color: black;
+	background: white;
+}
+
+h2.sub-title{
+	position: relative;
+	display:  block;
+	margin:  70px auto;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+}
+
+
+h2.sub-title::after{
+	display: block;
+	height: 2px;
+	background: black;
+	content: "";
+	width: 100px;
+	margin: 30px auto 0 auto;
+
+}
+
+section.beating-heart{
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6));
+	text-align: center;
+	height: auto;
+	padding: 50px 10px;
+	color: white;
+}
+
+.heart{
+	position: relative;
+	width: 100px;
+	margin: 0 60px;
+}
+
+/* MASONRY STYLE JS STARTS FROM HERE */
+
+.masonry-grid{
+	position: relative;
+
+}
+
+.grid{
+	margin: 0 auto;
+}
+
+.grid-item {
+	width:  450px;
+}
+
+.tall-img{
+	height:  680px;
+}
+
+img{
+	width: 100%;
+	height: 100%
+}
+
+
+
+/* SLIDER STARTS */
+
+
+.slider-div h2 {
+	margin-bottom: 0;
+}
+
+.slider {
+	margin: 20px auto;
+	text-align: center;
+	padding: 20px;
+	color: #FFF;
+}
+
+.slide {
+	max-height: 300px;
+	padding: 15px;
+}
+
+.slick-prev,
+.slick-next {
+	background: black;
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+}
+
+/* RESUME starts */
+
+/* section#resume {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6));
+text-align: center;
+height: auto;
+padding: 50px 10px;
+color: white;
+} */
+
+.row {
+	width: 100%;
+	display: flex;
+	margin:  50px auto;
+}
+
+.row h1 {
+	font-size: 24px;
+}
+
+.item {
+	justify-content: space-between;
+	display: flex;
+	margin:  8px auto;
+}
+.three {
+	width: 25%;
+	
+}
+
+.nine {
+	width: 75%;
+}
+
+.nine,
+.main-col {
+	display: block;
+	text-align: left;
+
+}
+
+.org {
+	color: pink;
+	font: 20px;
+}
+
+
+#resume h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+
+}
+
+/* FOOTER STARTS */
+
+footer {
+	z-index: -2;
+	height: 150px;
+	position: relative;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+
